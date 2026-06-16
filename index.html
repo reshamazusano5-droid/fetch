@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <script src="js/fetch.js"></script>
+</head>
+<body>
+    <div class="container">
+    <form class="form" id="loginForm">
+        <h2>Login</h2><br><br>
+        
+        <label for="username">Username:</label><br>
+        <input class="input" type="text" id="username" name="username" required><br>
+        
+        <label  for="password">Password:</label><br>
+        <input class="input" type="password" id="password" name="password" required><br>
+        
+        <button class="btn" type="button" onclick="submitData()">Login</button><br>
+
+        <div class="message" id="message"></div>
+
+    </form>
+
+</div>
+</body>
+</html>
