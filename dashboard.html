@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<button class="back-button" onclick="history.back()">Go Back</button><br><br>
+<div class="container">
+
+<h2>Student List</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>student_ID</th>
+            <th>first name</th>
+            <th>last name</th>
+            <th>email</th>
+            <th>course</th>
+            <th>year level</th>
+            <th>enrollment date</th>
+        </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+</table>
+</div>
+
+<script src="js/fetch.js"></script>
+<script>
+    getData(); // call it when dashboard loads
+</script>
+
+
+</body>
+</html>
